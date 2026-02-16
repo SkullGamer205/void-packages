@@ -5,9 +5,9 @@ revision=1
 _subversion=1
 build_style=cmake
 configure_args="-DPGE_SHARED_SDLMIXER=OFF -DUSE_SYSTEM_SDL2=ON -DUSE_FREEIMAGE_SYSTEM_LIBS=ON -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=MinSizeRel"
-hostmakedepends="pkg-config git cmake ninja gtk-update-icon-cache"
-makedepends="SDL2-devel libpng-devel libjpeg-turbo-devel alsa-lib-devel xbps-triggers"
-depends="SDL2 libjpeg-turbo libpng alsa-lib"
+hostmakedepends="pkg-config git cmake ninja"
+makedepends="SDL2-devel libpng-devel libjpeg-turbo-devel alsa-lib-devel"
+depends="SDL2 libjpeg-turbo libpng"
 short_desc="Modern C++ port and successor of the SMBX engine"
 maintainer="SkullGamer205 <skullgamer205@disroot.org>"
 license=GPL-3.0
