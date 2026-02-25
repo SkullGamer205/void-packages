@@ -11,7 +11,7 @@ depends="SDL2 libjpeg-turbo libpng"
 short_desc="Modern C++ port and successor of the SMBX engine"
 maintainer="SkullGamer205 <skullgamer205@disroot.org>"
 license=GPL-3.0
-homepage="wohlsoft.ru/projects/thextech"
+homepage="wohlsoft.ru/projects/TheXTech"
 
 _ver_subver() {
 	echo ${version}$( if [ -n $_subversion ]; then
