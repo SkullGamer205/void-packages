@@ -10,7 +10,7 @@ makedepends="SDL2-devel libpng-devel libjpeg-turbo-devel alsa-lib-devel"
 depends="SDL2 libjpeg-turbo libpng"
 short_desc="Modern C++ port and successor of the SMBX engine"
 maintainer="SkullGamer205 <skullgamer205@disroot.org>"
-license=GPL-3.0
+license=GPL-3.0-or-later
 homepage="wohlsoft.ru/projects/TheXTech"
 
 _ver_subver() {
